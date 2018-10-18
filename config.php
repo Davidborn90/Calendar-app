@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$servername ="rdbms.strato.de";
-$username ="U3531062";
-$dbname = "DB3531062";
-$password = "databasepass";
+$servername ="***";
+$username ="***";
+$dbname = "***";
+$password = "***";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
