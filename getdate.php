@@ -1,7 +1,7 @@
 <?php
 
     
-if(isset($_GET["datesubmit"])){
+if(isset($_GET["datesubmit"])&&isset($_GET["caldate"])){
     $date= $_GET["caldate"];
     $datevalue= strtotime($date);
 }else{
